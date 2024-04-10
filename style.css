@@ -1,0 +1,87 @@
+/* Typography */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-primary: #131a22;
+  --colour-secondary: #232f3e;
+  --colour-accent: #26313e;
+  --color-heading: #0f1111;
+  --color-body: #3e3e3e;
+  --color-body-link: #007185;
+  --border-radius: 0.25rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Bar */
+.nav_bar {
+  background-color: var(--color-primary);
+}
+
+/* Left Section */
+
+.nav_bar_left {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Logo */
+
+.nav_bar_logo {
+  width: 12.8rem;
+  height: 5.6rem;
+  padding-top: 0.3rem;
+}
+
+/* Delivery Location */
+
+.nav_bar_delivery_location {
+  width: 19.3rem;
+  height: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 0.2rem;
+}
+
+.current_address {
+  color: #cccccc;
+  display: flex;
+  font-size: 1.15rem;
+  letter-spacing: 0.4px;
+  line-height: 10px;
+  margin-left: 1.9rem;
+  margin-top: 0.2rem;
+}
+
+.locater {
+  display: flex;
+  color: #ffffff;
+  display: flex;
+  align-items: stretch;
+}
+
+.location_dot {
+  width: 1.5rem;
+  height: 1.8rem;
+  margin-left: 0.1rem;
+  margin-top: -0.1rem;
+  margin-right: 0.2rem;
+}
+
+.update {
+  font-size: 1.4rem;
+  margin-top: 0.1rem;
+  margin-left: 0.1rem;
+  font-weight: bold;
+}
