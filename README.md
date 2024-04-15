@@ -1,7 +1,7 @@
 # Amazon-Cloning-Project
-Mentor - Shradha Khapra
+ Idea of this clone project was gaved by Shradha Khapra
 <br/>
 <br/>
-This is the repo in which I learned to clone. In it I will clone Amazon.in.
+This is the repo in which I learned what is cloning. As it is my first clone. I will clone Amazon.in.
 <br/>
 Author - Swarup C. Padol
