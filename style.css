@@ -23,7 +23,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Navigation Bar */
+/* Effects & Filters */
+
+.border_effect {
+  border: 0.2rem solid transparent;
+}
+
+.border_effect:hover {
+  border: 0.2rem solid white;
+}
+
+.hover_effect:hover {
+  background-color: rgb(243, 168, 71);
+}
+
+/* Header */
+
+/* Navigation Bar Panel */
 .nav_bar {
   display: flex;
   height: 6rem;
@@ -37,23 +53,34 @@ body {
   display: flex;
   align-items: flex-start;
   height: 6rem;
-  width: 21.664rem;
+  width: 22.6rem;
 }
 
 /* Logo */
 
-.nav_bar_logo {
-  width: 11.3rem;
-  height: 5rem;
-  padding-top: 0.3rem;
+.nav_logo {
+  width: 11.4rem;
+  height: 6rem;
+  margin-left: 1rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 4.5rem;
+  padding-left: 0.6rem;
+  padding-right: 0.8rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  background-image: url(../Amazon-Cloning-Project/images/amazon_logo.png);
+  background-size: cover;
 }
 
 /* Delivery Location */
 
 .nav_bar_delivery_location {
-  width: 19.3rem;
-  height: 4rem;
-  padding-left: 2rem;
+  width: 7.5rem;
+  height: 3rem;
+  padding-left: 1rem;
   margin-top: 1.5rem;
   margin-left: 0.2rem;
 }
@@ -93,7 +120,7 @@ body {
 /* Middle Section */
 
 .nav_bar_middle {
-  width: 82.25rem;
+  width: 128.15rem;
   height: 6rem;
   display: flex;
 }
@@ -101,7 +128,7 @@ body {
 /* Search Panel */
 
 .search_box {
-  width: 81.25rem;
+  width: 124.55rem;
   height: 4rem;
   margin: 0 1rem;
   padding: 1rem 0.4rem 1rem 0.3rem;
@@ -117,6 +144,10 @@ body {
   width: 5.2rem;
 }
 
+.nav_bar_drop_down_box:hover {
+  background-color: rgb(212, 212, 212);
+}
+
 .nav_bar_drop_down_box {
   height: 4.2rem;
   width: 5.2rem;
@@ -130,7 +161,7 @@ body {
 /* Input Box */
 
 .search_panel {
-  width: 69.85rem;
+  width: 114.15rem;
   height: 4.2rem;
 }
 
@@ -161,4 +192,275 @@ body {
 .search_logo_svg {
   width: 55%;
   height: 55%;
+}
+
+/* Right Section */
+
+.nav_bar_right {
+  width: 39.786rem;
+  height: 6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.language {
+  width: 6.038rem;
+  height: 5.5rem;
+  padding: 0rem 0.6rem 0.5rem 0.7rem;
+  margin: 0rem 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language_flag {
+  width: 2.16rem;
+  height: 1.62rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#language_text {
+  width: 1.838rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.5rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#language_arrow {
+  width: 0.8rem;
+  height: 0.4rem;
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_in {
+  width: 11.353rem;
+  height: 5rem;
+  padding: 0.75rem 0.4rem 0.8rem 0.4rem;
+  margin: 0rem 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#sign_in_hello {
+  width: 7.041rem;
+  height: 1.4rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#sign_in_account {
+  width: 11.8rem;
+  height: 1.5rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 550;
+  display: flex;
+}
+
+#sign_in_arrow {
+  width: 0.8rem;
+  height: 0.4rem;
+  margin-left: 0.5rem;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.return {
+  width: 7.695rem;
+  height: 5rem;
+  margin-left: 0.6rem;
+  padding: 0rem 0.8rem 1rem 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#return_returns {
+  width: 5.895rem;
+  height: 1.4rem;
+  margin: 0.9rem 0rem 0rem;
+  color: #fff;
+  font-size: 1.2rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+#return_order {
+  width: 6rem;
+  height: 1.5rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 550;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.customer_cart {
+  width: 8.4rem;
+  height: 5rem;
+  margin: 0rem 1.5rem 0rem 0.9rem;
+  padding: 0rem 0.9rem 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#customer_cart_svg {
+  width: 3.8rem;
+  height: 2rem;
+}
+
+#customer_cart_text {
+  width: 2.8rem;
+  height: 1.5rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 550;
+  margin-top: 1rem;
+}
+
+/* Nav Panel */
+
+.nav_panel {
+  height: 3.9rem;
+  width: 190.5rem;
+  color: #0f1111;
+  background-color: #232f3e;
+  display: flex;
+}
+
+.nav_panel_section {
+  height: 3.9rem;
+  width: 181.058rem;
+  display: flex;
+  color: #fff;
+}
+
+.nav_panel_all_section {
+  height: 2.3rem;
+  width: 4.0422rem;
+  padding: 0.8rem 0.9rem 0.8rem 0.9rem;
+  margin-right: 0.3rem;
+  margin-left: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_panel_all_section_svg {
+  width: 1.7rem;
+  height: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_panel_all_section_text {
+  width: 2.342rem;
+  height: 1.2rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_panel_deal_section {
+  width: 10.481rem;
+  height: 3.9rem;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_panel_registery_section {
+  width: 7.18rem;
+  height: 3.9rem;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_panel_prime_video_section {
+  width: 9.709rem;
+  height: 3.9rem;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_panel_gift_card_section {
+  width: 8.3rem;
+  height: 3.9rem;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_panel_customer_service {
+  width: 13.034rem;
+  height: 3.9rem;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_panel_sell_section {
+  width: 4.338rem;
+  height: 3.9rem;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Body */
+
+.container_body {
+  background-color: #e3e6e6;
+  height: 100rem;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+}
+
+.hero_image {
+  background-image: url(./images/hero.jpg);
+  width: 150rem;
+  height: 60rem;
+  background-size: cover;
+  mask-image: linear-gradient(black 50%, transparent);
 }
